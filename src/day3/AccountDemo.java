@@ -2,7 +2,7 @@ package day3;
 import java.util.Scanner;
 
 class Account {
-    int acc_no;
+     int acc_no;
     double balance;
 
     void input() {

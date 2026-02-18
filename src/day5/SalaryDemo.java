@@ -8,11 +8,11 @@ interface Salary {
     void bonus();
 }
 
-abstract class Manager implements Salary {
+abstract class Manager1 implements Salary {
 
     double basic;
 
-    Manager(double basic) {
+    Manager1(double basic) {
         this.basic = basic;
     }
 
@@ -27,7 +27,7 @@ abstract class Manager implements Salary {
     }
 }
 
-class Substaff extends Manager {
+class Substaff extends Manager1 {
 
     Substaff(double basic) {
         super(basic);

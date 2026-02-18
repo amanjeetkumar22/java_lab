@@ -1,6 +1,6 @@
 package day7;
-// User-defined exception
-class CheckArgument extends Exception {
+
+class CheckArgument extends Exception {// user defined
     CheckArgument(String msg) {
         super(msg);
     }

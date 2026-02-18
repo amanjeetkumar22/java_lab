@@ -22,11 +22,11 @@ public class StringOperation{
 
                 System.out.print("Enter your choice: ");
                 choice = sc.nextInt();
-                sc.nextLine(); // clear buffer
+                sc.nextLine();
 
                 switch (choice) {
 
-                    // 1. Change case
+
                     case 1:
                         System.out.print("Enter a String: ");
                         String s1 = sc.nextLine();
@@ -41,8 +41,6 @@ public class StringOperation{
                         }
                         System.out.println("Reversed string: " + rev);
                         break;
-
-                    // 3. Compare two strings
                     case 3:
                         System.out.print("Enter first string: ");
                         String a = sc.nextLine();
@@ -51,8 +49,6 @@ public class StringOperation{
                         int diff = a.compareTo(b);
                         System.out.println("Difference between ASCII value is: " + diff);
                         break;
-
-                    // 4. Insert string
                     case 4:
                         System.out.print("Enter first string: ");
                         String mainStr = sc.nextLine();
@@ -60,16 +56,12 @@ public class StringOperation{
                         String ins = sc.nextLine();
                         System.out.println("After insertion: " + mainStr + " " + ins);
                         break;
-
-                    // 5. Uppercase & Lowercase
                     case 5:
                         System.out.print("Enter a String: ");
                         String s5 = sc.nextLine();
                         System.out.println("Uppercase: " + s5.toUpperCase());
                         System.out.println("Lowercase: " + s5.toLowerCase());
                         break;
-
-                    // 6. Character position
                     case 6:
                         System.out.print("Enter a String: ");
                         String s6 = sc.nextLine();
@@ -81,8 +73,6 @@ public class StringOperation{
                         else
                             System.out.println("Entered character is not present");
                         break;
-
-                    // 7. Palindrome
                     case 7:
                         System.out.print("Enter a String: ");
                         String s7 = sc.nextLine();
@@ -95,8 +85,6 @@ public class StringOperation{
                         else
                             System.out.println("Entered string is not a palindrome");
                         break;
-
-                    // 8. Count words, vowels, consonants
                     case 8:
                         System.out.print("Enter a String: ");
                         String s8 = sc.nextLine().toLowerCase();
@@ -118,7 +106,6 @@ public class StringOperation{
                         System.out.println("No. of vowels: " + vowels);
                         System.out.println("No. of consonants: " + consonants);
                         break;
-
                     case 9:
                         System.out.println("Program exited.");
                         break;

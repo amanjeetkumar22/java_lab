@@ -56,7 +56,7 @@ public class ColorListBoxDemo extends JFrame implements ActionListener {
     }
 
     public static void main(String args[]) {
-        new ColorListBoxDemo():
+        new ColorListBoxDemo();
         System.out.println("hello");
     }
 }

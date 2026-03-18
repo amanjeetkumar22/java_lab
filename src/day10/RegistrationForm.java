@@ -8,21 +8,16 @@ public class RegistrationForm {
 
         JFrame f = new JFrame("Registration Form");
 
-        // Labels
         JLabel l1 = new JLabel("Name:");
         JLabel l2 = new JLabel("Email:");
         JLabel l3 = new JLabel("Address:");
         JLabel l4 = new JLabel("Gender:");
         JLabel l5 = new JLabel("Hobbies:");
 
-        // TextFields
         JTextField t1 = new JTextField();
         JTextField t2 = new JTextField();
-
-        // TextArea
         JTextArea ta = new JTextArea();
 
-        // Radio Buttons
         JRadioButton r1 = new JRadioButton("Male");
         JRadioButton r2 = new JRadioButton("Female");
 
@@ -30,19 +25,15 @@ public class RegistrationForm {
         bg.add(r1);
         bg.add(r2);
 
-        // Checkboxes
         JCheckBox c1 = new JCheckBox("Reading");
         JCheckBox c2 = new JCheckBox("Sports");
         JCheckBox c3 = new JCheckBox("Music");
 
-        // Button
         JButton b = new JButton("Register");
 
-        // Image
         ImageIcon img = new ImageIcon("logo.png");
         JLabel imageLabel = new JLabel(img);
 
-        // Set Bounds
         l1.setBounds(50,50,100,30);
         t1.setBounds(150,50,150,30);
 

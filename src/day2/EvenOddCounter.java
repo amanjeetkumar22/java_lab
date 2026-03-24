@@ -17,6 +17,5 @@ public class EvenOddCounter {
 
         System.out.println("Number of even numbers: " + even);
         System.out.println("Number of odd numbers: " + odd);
-        sc.close();
     }
 }

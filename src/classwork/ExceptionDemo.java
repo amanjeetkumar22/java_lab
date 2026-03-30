@@ -1,4 +1,8 @@
 package classwork;
+/// Write a Java program where following exceptions arise and
+/// are handled suitably .
+///     a) ArrayIndexOutOfBoundException
+///     b) NullPointerException
 public class ExceptionDemo {
 
     public static void main(String[] args) {

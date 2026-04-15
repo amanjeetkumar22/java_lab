@@ -272,7 +272,7 @@ public class NotepadApp1 {
 
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("Smart Productivity App");
+        JFrame frame = new JFrame("Smart Productivity App1");
         frame.setSize(750, 500);
         frame.setLayout(new BorderLayout());
 
